@@ -20,7 +20,7 @@ mongoose.set('strictQuery', false)
 
 //Cors
 const cors = require('cors')
-const whiteList = ['http://localhost:5173']
+const whiteList = ['https://jp-mercado-libre-clon.onrender.com']
 
 app.use(cors({
   origin: whiteList
