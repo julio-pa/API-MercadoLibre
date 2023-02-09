@@ -8,7 +8,7 @@ const cors = require('cors')
 const Product = require('../Models/Products.model');
 
 //get products
-router.get('/products', (req, res) => {
+router.get('/products',cors(), (req, res) => {
 
   Product.find()
     .then(allProducts => res.json(allProducts))
@@ -25,7 +25,7 @@ router.get('/details/:product_id', cors(), (req, res) => {
 
 //get products by category
 
-router.get('/products/:category', (req, res) => {
+router.get('/products/:category',cors(), (req, res) => {
   const { category } = req.params
 
   Product
