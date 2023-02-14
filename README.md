@@ -25,4 +25,4 @@ En este proyecto utlizamos Nodejs como entorno de desarrollo, para ejecutar el c
 > npm start
 ```
 ## 🔵 Enlace al Front-End
-Si quiere ver el código del Back-End de este proyecto puedes visitar el siguiente enlace https://github.com/julio-pa/MercadoLibre-clon
+Si quiere ver el código del Front-End de este proyecto puedes visitar el siguiente enlace https://github.com/julio-pa/MercadoLibre-clon
